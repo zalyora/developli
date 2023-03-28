@@ -1,0 +1,14 @@
+@mixin button-big {
+    padding: 16px 36px;
+    border-radius: var(brd);
+}
+
+@mixin button-medium {
+    padding: 16px 28px;
+    border-radius: var(brd);
+}
+
+@mixin button-small {
+    padding: 16px 18px;
+    border-radius: var(brd);
+}
