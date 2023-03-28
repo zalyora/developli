@@ -1,0 +1,59 @@
+/* ReadexPro Regular 400 */
+@font-face {
+    font-family: 'Readex Pro';
+    src: url('../Fonts/ReadexPro/ReadexPro-Regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Fonts/ReadexPro/ReadexPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/ReadexPro/ReadexPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/ReadexPro/ReadexPro-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/ReadexPro/ReadexPro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fonts/ReadexPro/ReadexPro-Regular.svg#ReadexPro-Regular') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ReadexPro Medium 500 */
+@font-face {
+    font-family: 'Readex Pro';
+    src: url('../Fonts/ReadexPro/ReadexPro-Medium.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Fonts/ReadexPro/ReadexPro-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/ReadexPro/ReadexPro-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/ReadexPro/ReadexPro-Medium.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/ReadexPro/ReadexPro-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fonts/ReadexPro/ReadexPro-Medium.svg#ReadexPro-Medium') format('svg'); /* Legacy iOS */
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ReadexPro SemiBold 600 */
+@font-face {
+    font-family: 'Readex Pro';
+    src: url('../Fonts/ReadexPro/ReadexPro-SemiBold.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Fonts/ReadexPro/ReadexPro-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/ReadexPro/ReadexPro-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/ReadexPro/ReadexPro-SemiBold.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/ReadexPro/ReadexPro-SemiBold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fonts/ReadexPro/ReadexPro-SemiBold.svg#ReadexPro-SemiBold') format('svg'); /* Legacy iOS */
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ReadexPro Bold 700 */
+@font-face {
+    font-family: 'Readex Pro';
+    src: url('../Fonts/ReadexPro/ReadexPro-Bold.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Fonts/ReadexPro/ReadexPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/ReadexPro/ReadexPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/ReadexPro/ReadexPro-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/ReadexPro/ReadexPro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fonts/ReadexPro/ReadexPro-Bold.svg#ReadexPro-Bold') format('svg'); /* Legacy iOS */
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
