@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="./SCSS/style.css">
 </head>
 <body>
-    <header class="container"> <!-- 1239.98 px -->
+    <header class="container"> <!--------------------------------------- 1239.98 px -->
         <div class="logo">
             <a href="#">
-                <!-- временно ссылочка -->
-                <img src="../developli/Img/Logo-developli-color.svg" alt="Logo developli color">
+                <!--  ------------------------------------------------временно ссылочка -->
+                <img src="./Img/Logo-developli-color.svg" alt="Logo developli color">
             </a>
             
         </div>
@@ -37,40 +37,87 @@
             </ul>
         </nav>
 
-        <div class="login-user">
-            <a href="#">
-                <span class="icon-user"></span>
-                <span>Login</span>
+            <a class="login-user" href="#">
+                <button> <span class="icon-user"></span>Login</button>
             </a>
-        </div>
-        <!-- а може так краще 
-        <button class="login-user">
-            <span class="icon-user"></span>
-            <span>Login</span>
-            <a href=""></a>
-        </button>
-        -->
-        <!-- чи так 
-        <button class="login-user">
+
+        <!-- Login to Dashboard -->
+        <div class="Login-dashboard">
+            <div>
+                <p>Login to Dashboard</p>
+                <div>
+                    Х
+                </div>
+            </div>
+            <p>
+                Login to the dashboard first before applying for a job. If you don't have an account you can create one here. Create Account
+                <a href="">Create Account</a>
+            </p>
+
             <ul>
-                <li class="icon-user"></li>
-                <li>Login</li>
+                <li><a href="#">Cancel</a></li>
+                <li><a href="#">Login</a></li>
             </ul>
-            <a href=""></a>
-        </button>       -->
+
+        </div>
+
+        <div> <!-- Форма входа-->
+            <form action="" name=”login-in”  method="post" accept-charset="UTF-8" autocomplete="on">
+                <p>E-mail <span>*</span></p>
+                <input id="" type="email" name="email" min="3" placeholder="Enter your email" required>
+                <p>Password <span>*</span></p>
+                <input id="" type="password" name="password-x" min="8" placeholder="Enter your password" required>
+            </form>
+            <button type="submit">Login</button>
+        </div>
 
         <ul>
             <li><a href="#">Start hiring</a></li>
             <li><a href="#">Find a job</a></li>
         </ul>
 
-        <!-- а може так краще 
-        <div>
-            <button><a href="#">Start hiring</a></button>
-            <button><a href="#">Find a job</a></button>
-        </div>
-       -->
+       <section class="" style="border: 2px solid yellowgreen">
+        <div  class="header-slogan-left" style="border: 2px solid red"> <!------- временно  -->
+            <h1>
+                Let’s <span>boost up</span> your hiring process
+            </h1>
+            <p>
+                We are nost efficient and reliable souce of hiring perocess and two time faster than any other companies  are nost efficient and reliable souce of hiring perocess and two time faster than any other companies
+            </p>
+            <ul>
+                <li><a href="#">Start hiring</a> <span class="icon-arrow-right"></span> </li>
+                <li><a href="#">Find a job</a> <span class="icon-arrow-right"></span> </li>
+            </ul>
+
+        </div> <!-- END div class="header-slogan-left" -->
+
+        <div class="header-slogan-right" style="border: 2px solid blue">
+            <img src="./Img/Header/flower_rainbow.svg" alt="background-context" srcset=""> <!------- парень в очках -->
+
+            <!------- парень в очках -->
+            <div> <!------- серый бордер -->
+                <div> <!------- обрезка картинки -->
+                    <img src="./Img/Header/men_smile.png" alt="men smile"> <!------- первая картинка -->
+                    <img src="./Img/Header/men.png" alt="men like"> <!------- вторая  картинка при ховере или смене со временем -->
+                </div>
+            </div>
+
+            <!------- девочка -->
+            <div> <!------- серый бордер -->
+                <div> <!------- обрезка картинки -->
+                    <img src="./Img/Header/miss.png" alt="miss hijab amirah"> <!------- первая картинка -->
+                    <img src="./Img/Header/miss1.png"  alt="miss hijab amirah"> <!------- вторая  картинка при ховере или смене со временем -->
+                </div>
+            </div>
+
+            <!-------парень с улыбкох-->
+            <div> <!------- обрезка картинки -->
+                <img src="./Img/Header/men_young.png" alt="men young smile"> <!------- первая картинка -->
+            </div>
+        </div> <!-- END div class="header-slogan-right"-->
+
+
+       </section>
     </header>
-    
 </body>
 </html>
